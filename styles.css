@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #26c485;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white-keys {
+    height: 350px;
+    width: 600px;
+    background-color: #7c606b;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.white-keys > kbd {
+    background-color: white;
+    width: 100px;
+   height: 350px;
+    font-size:35px;
+    border: 3px solid #7c606b;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    line-height: 130px;
+    text-align: center;
+}
+
+.black-keys{
+    position: absolute;
+    height: 212px;
+    width: 600px;
+    text-align: center;
+}
+
+.black-keys > kbd {
+    display: inline-block;
+    background-color: #000022;
+    width: 60px;
+    line-height: 206px;
+    font-size:25px;
+   border: 3px solid #000022;
+}
+
+.touch_w{
+margin-right: 25px;
+    color: white;
+}
+
+.touch_e{
+margin-right: 55px;
+    color: white;
+}
+
+.touch_t{
+    margin-left: 53px;
+    color: white;
+}
+
+.touch_y{
+    margin-left: 30px;
+    color:white;
+}
+
+.touch_u{
+    margin-left: 30px;
+    color: white;
+}
