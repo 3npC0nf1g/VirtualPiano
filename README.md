@@ -8,5 +8,6 @@
 
 * you just have to open the index.html file with a browser.
 * after that used the keys of your keyboard corresponding to those specified in the web piano to make some songs and take pleasure.
+* Make sure that the keys are those of your default keyboard (AZERTY or QWERTY) 
 
 # ReadMe to complete ...
